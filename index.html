@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tasman Vessel Management — MOSS &amp; MTOP, digitised</title>
+<meta name="description" content="Custom-built MOSS and MTOP compliance and asset management software for New Zealand vessel operators. No subscriptions — you own the application. Coming soon.">
+<link rel="icon" type="image/webp" href="data:image/webp;base64,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">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Tasman Vessel Management — MOSS &amp; MTOP compliance, digitised">
+<meta property="og:description" content="Custom-built compliance and asset management software for NZ vessel operators. No subscriptions — you own the application.">
+<meta property="og:image" content="https://tasmanvesselmanagement.co.nz/tvm-og-image.png">
+<meta property="og:url" content="https://tasmanvesselmanagement.co.nz">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Tasman Vessel Management — MOSS &amp; MTOP compliance, digitised">
+<meta name="twitter:description" content="Custom-built compliance and asset management software for NZ vessel operators. No subscriptions — you own the application.">
+<meta name="twitter:image" content="https://tasmanvesselmanagement.co.nz/tvm-og-image.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --tasman-blue: #0B5E8E;
+    --deep-ocean: #083B59;
+    --ocean-mid: #0A4E76;
+    --harbour-blue: #3A8FC1;
+    --seafoam: #3FC6D5;
+    --bg: #FFFFFF;
+    --surface: #F5F7FA;
+    --divider: #D9E2EC;
+    --text: #1F2937;
+    --success: #2E7D32;
+    --success-bg: #E7F3E8;
+    --warning: #F9A825;
+    --warning-bg: #FEF3DE;
+    --critical: #C62828;
+    --critical-bg: #FBE7E7;
+    --neutral: #6B7280;
+    --max-w: 1180px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    background: var(--deep-ocean);
+    color: #CFE3E9;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1,h2,h3,.display{
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.08;
+  }
+  .mono{ font-family:'Inter',sans-serif; font-weight:600; letter-spacing:0.02em; }
+  a{color:inherit;}
+  .wrap{max-width: var(--max-w); margin: 0 auto; padding: 0 32px;}
+  ::selection{ background: var(--seafoam); color: var(--deep-ocean); }
+
+  /* ---------- NAV ---------- */
+  header{
+    position: sticky; top:0; z-index: 50;
+    background: rgba(8,59,89,0.9);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid rgba(255,255,255,0.12);
+  }
+  nav.wrap{ display:flex; align-items:center; justify-content:space-between; height: 76px; }
+  .brand{display:flex; align-items:center; gap:12px;}
+  .brand-mark{width:50px; height:50px; flex-shrink:0; border-radius:10px; display:block; object-fit:cover;}
+  .brand-text{font-weight:800; font-size:17px; line-height:1.15; color:#fff;}
+  .brand-text span{display:block; font-weight:600; font-size:10px; letter-spacing:0.12em; color:var(--seafoam); text-transform:uppercase; margin-top:2px;}
+  .nav-links{display:flex; gap:34px; font-size:14.5px; font-weight:600;}
+  .nav-links a{text-decoration:none; position:relative; padding-bottom:4px; color: #E4F1F4;}
+  .nav-links a::after{content:"";position:absolute;left:0;bottom:0;width:0;height:2px;background:var(--seafoam);transition:width .25s ease;}
+  .nav-links a:hover::after{width:100%;}
+  .nav-cta{
+    font-size:13.5px; font-weight:700; padding:11px 20px; border-radius:7px;
+    background: var(--seafoam); color:var(--deep-ocean); text-decoration:none;
+    border: 1px solid var(--seafoam);
+    transition: background .2s ease, box-shadow .2s ease, transform .15s ease;
+  }
+  .nav-cta:hover{ background:#5CDCE8; box-shadow: 0 4px 16px rgba(63,198,213,0.4); transform:translateY(-1px); }
+  .nav-toggle{display:none; flex-direction:column; gap:5px; background:none; border:none; cursor:pointer;}
+  .nav-toggle span{width:24px;height:2px;background:#fff;}
+
+  /* ---------- HERO ---------- */
+  .hero{
+    position:relative; overflow:hidden;
+    background: var(--deep-ocean);
+    color: #fff;
+    padding: 108px 0 96px;
+  }
+  .chart-lines{position:absolute; inset:0; opacity:0.55; pointer-events:none;}
+  .hero .wrap{position:relative; z-index:2;}
+  .eyebrow{
+    font-size:12.5px; font-weight:700; letter-spacing:0.14em; text-transform:uppercase;
+    color:#8FD3DC; display:flex; align-items:center; gap:10px; margin-bottom:22px;
+  }
+  .eyebrow::before{content:"";width:26px;height:2px;background:#8FD3DC;}
+  .hero h1{ font-size: clamp(38px, 5.4vw, 62px); max-width: 780px; margin-bottom: 24px; }
+  .hero h1 em{font-style:normal; color:var(--seafoam);}
+  .hero p.lede{ max-width: 560px; font-size: 18px; color:#C9DCE4; margin-bottom: 40px; font-weight:400;}
+  .hero-ctas{display:flex; gap:16px; flex-wrap:wrap; margin-bottom: 64px;}
+  .btn-primary{
+    background: var(--tasman-blue); color:#fff; font-weight:700; font-size:15px;
+    padding: 15px 26px; border-radius:8px; text-decoration:none; border:1px solid var(--tasman-blue);
+    transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
+  }
+  .btn-primary:hover{ background: var(--harbour-blue); transform: translateY(-2px); box-shadow: 0 8px 20px rgba(58,143,193,0.35); }
+  .btn-ghost{
+    color: #fff; font-weight:600; font-size:15px; padding:15px 8px;
+    text-decoration:none; border-bottom:1px solid rgba(255,255,255,0.35);
+  }
+  .btn-ghost:hover{border-color: var(--seafoam); color: var(--seafoam);}
+  .hero-strip{ display:flex; gap:0; border-top:1px solid rgba(255,255,255,0.16); padding-top:28px; flex-wrap:wrap; }
+  .hero-strip div{padding-right:40px; margin-right:40px; border-right:1px solid rgba(255,255,255,0.16);}
+  .hero-strip div:last-child{border-right:none;}
+  .hero-strip .num{font-size:25px; font-weight:800; color:var(--seafoam);}
+  .hero-strip .lbl{font-size:12.5px; color:#a9c7d0; margin-top:4px; max-width:150px;}
+
+  /* ---------- SECTION GENERIC ---------- */
+  section{padding: 92px 0;}
+  .section-head{max-width: 640px; margin-bottom: 56px;}
+  .section-head .eyebrow{color: var(--seafoam);}
+  .section-head .eyebrow::before{background:var(--seafoam);}
+  .section-head h2{font-size: clamp(28px,3.6vw,38px); color: #fff;}
+  .section-head p{font-size:16.5px; margin-top:16px; color:#B9D3DB; max-width:520px; font-weight:400;}
+
+  /* ---------- PROBLEM / TRANSFORM ---------- */
+  .transform{
+    display:grid; grid-template-columns: 1fr 60px 1fr; gap:0; align-items:stretch;
+    background:var(--surface); border:1px solid var(--divider); border-radius:12px; overflow:hidden;
+  }
+  .transform-col{padding:36px 34px;}
+  .transform-col.paper{background: var(--surface);}
+  .transform-col.digital{background: var(--deep-ocean); color:#fff;}
+  .transform-arrow{display:flex; align-items:center; justify-content:center; border-left:1px dashed var(--divider); border-right:1px dashed var(--divider);}
+  .transform-col .tag{font-size:11px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; margin-bottom:18px; display:inline-block;}
+  .transform-col.paper .tag{color:var(--neutral); border-bottom:1px solid var(--neutral);}
+  .transform-col.digital .tag{color:var(--seafoam); border-bottom:1px solid var(--seafoam);}
+  .transform-col h3{font-size:21px; margin-bottom:14px;}
+  .transform-col ul{list-style:none; font-size:14.5px;}
+  .transform-col.paper ul li{color:#4b5b66; padding:7px 0; border-bottom:1px dashed var(--divider);}
+  .transform-col.digital ul li{color:#c9dce4; padding:7px 0; border-bottom:1px dashed rgba(255,255,255,0.16);}
+
+  /* ---------- FEATURE GRID ---------- */
+  .grid3{display:grid; grid-template-columns: repeat(3,1fr); gap:1px; background: rgba(255,255,255,0.1); border:1px solid rgba(255,255,255,0.1); border-radius:12px; overflow:hidden;}
+  .card{background: #fff; padding: 32px 28px;}
+  .card .idx{font-size:12px; font-weight:700; color:var(--seafoam); margin-bottom:16px;}
+  .card h3{font-size:18.5px; margin-bottom:10px; color:var(--deep-ocean);}
+  .card p{font-size:14.5px; color:#4b5b66; font-weight:400;}
+
+  /* ---------- ASSET MODULE (dark band) ---------- */
+  .band{background: var(--tasman-blue); color:#eaf5f8;}
+  .band .section-head .eyebrow{color:#bdeaf0;}
+  .band .section-head .eyebrow::before{background:#bdeaf0;}
+  .band .section-head h2{color:#fff;}
+  .band .section-head p{color:#dcf0f4;}
+  .asset-grid{display:grid; grid-template-columns: 1.1fr 1fr; gap:56px; align-items:center;}
+  .register{ background:#083B59; border:1px solid rgba(255,255,255,0.14); border-radius:10px; overflow:hidden; }
+  .register-row{display:grid; grid-template-columns: 90px 1.4fr 1fr 1fr; padding:14px 18px; font-size:13px; border-bottom:1px solid rgba(255,255,255,0.1);}
+  .register-row.head{font-size:10.5px; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:#8FD3DC; background:rgba(255,255,255,0.04);}
+  .register-row span{color:#e3f2f5;}
+  .status{display:inline-block; padding:3px 10px; border-radius:20px; font-size:11px; font-weight:700;}
+  .status.ok{background: var(--success-bg); color: var(--success);}
+  .status.due{background: var(--warning-bg); color:#8a5a00;}
+  .asset-list{list-style:none;}
+  .asset-list li{padding:16px 0; border-bottom:1px solid rgba(255,255,255,0.16); display:flex; gap:16px;}
+  .asset-list li:last-child{border-bottom:none;}
+  .asset-list .n{font-size:20px; font-weight:800; color:var(--seafoam); width:32px; flex-shrink:0;}
+  .asset-list h4{font-size:16.5px; margin-bottom:6px;}
+  .asset-list p{font-size:14px; color:#dcf0f4; font-weight:400;}
+
+  /* ---------- PROCESS ---------- */
+  .process{display:grid; grid-template-columns: repeat(4,1fr); gap: 28px;}
+  .step{position:relative; padding-top:20px;}
+  .step .mono{font-size:12px; color:var(--seafoam);}
+  .step h3{font-size:17px; margin: 10px 0 8px; color: #fff;}
+  .step p{font-size:14px; color:#B9D3DB; font-weight:400;}
+  .step-line{position:absolute; top:0; left:0; width:36px; height:2px; background:var(--seafoam);}
+
+  /* ---------- CTA / CONTACT ---------- */
+  .cta-band{ background: var(--deep-ocean); color:#fff; padding: 88px 0; position:relative; overflow:hidden; }
+  .cta-inner{display:grid; grid-template-columns: 1.2fr 1fr; gap:56px; align-items:center; position:relative; z-index:2;}
+  .cta-band h2{font-size: clamp(28px,3.8vw,40px); margin-bottom:18px;}
+  .cta-band p{color:#c9dce4; font-size:16px; max-width:460px; font-weight:400;}
+  .contact-card{background:#0B5E8E; border:1px solid rgba(255,255,255,0.18); padding:32px; border-radius:12px;}
+  .contact-card .tag{font-size:11px; font-weight:700; color:var(--seafoam); text-transform:uppercase; letter-spacing:0.1em; margin-bottom:14px; display:block;}
+  .contact-card p{font-size:14.5px; color:#d7ecf1; margin-bottom:22px; font-weight:400;}
+  .field{margin-bottom:14px;}
+  .field label{display:block; font-size:12px; font-weight:600; color:#bcdce4; margin-bottom:6px;}
+  .field input, .field textarea{
+    width:100%; background:#083B59; border:1px solid rgba(255,255,255,0.22); color:#fff;
+    padding:11px 12px; font-family:'Inter',sans-serif; font-size:14px; border-radius:7px;
+  }
+  .field input:focus, .field textarea:focus{outline:2px solid var(--seafoam); outline-offset:1px;}
+  .contact-card button{
+    width:100%; background:var(--seafoam); color:var(--deep-ocean); font-weight:700; font-size:14.5px;
+    padding:13px; border:none; border-radius:7px; cursor:pointer; margin-top:6px;
+  }
+
+  /* ---------- OWNERSHIP / POINT OF DIFFERENCE ---------- */
+  .diff{background: var(--ocean-mid);}
+  .diff-grid{display:grid; grid-template-columns: repeat(3,1fr); gap:1px; background: rgba(255,255,255,0.1); border:1px solid rgba(255,255,255,0.1); border-radius:12px; overflow:hidden;}
+  .diff-card{background:#fff; padding:34px 32px;}
+  .diff-card .icon{width:38px; height:38px; margin-bottom:20px;}
+  .diff-card h3{font-size:19px; margin-bottom:10px; color:var(--deep-ocean);}
+  .diff-card p{font-size:14.5px; color:#4b5b66; font-weight:400;}
+  .diff-strip{
+    margin-top:1px; background: var(--surface); border:1px solid var(--divider); border-top:none;
+    border-radius: 0 0 12px 12px; padding: 30px 32px; display:grid; grid-template-columns: repeat(3,1fr); gap:24px;
+  }
+  .diff-strip div{display:flex; gap:12px; align-items:flex-start;}
+  .diff-strip svg{flex-shrink:0; margin-top:2px;}
+  .diff-strip strong{display:block; font-size:14.5px; color:var(--deep-ocean); margin-bottom:3px;}
+  .diff-strip span{font-size:13.5px; color:#4b5b66;}
+
+  footer{background: var(--surface); padding: 40px 0; font-size:13px; color:var(--neutral); border-top:1px solid var(--divider);}
+  footer .wrap{display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:14px;}
+  footer .mono{color:var(--neutral); font-size:11.5px;}
+
+  .reveal{opacity:0; transform: translateY(18px); transition: opacity .7s ease, transform .7s ease;}
+  .reveal.in{opacity:1; transform:none;}
+
+  /* ---------- ANIMATED MASTHEAD ---------- */
+  .masthead{ position:relative; width:100%; height:150px; background:#FDFDFE; overflow:hidden; }
+  .masthead-wave-clip{ position:absolute; inset:0; overflow:hidden; }
+  .wave-back, .wave-front{ position:absolute; top:0; left:0; width:200%; height:100%; }
+  .wave-back{ animation: wave-scroll 20s linear infinite; }
+  .wave-front{ animation: wave-scroll 12s linear infinite reverse; }
+  @keyframes wave-scroll{ from{ transform: translateX(0); } to{ transform: translateX(-50%); } }
+  .masthead-boat{
+    position:absolute; top:44px; left:60%;
+    width:96px; height:55px;
+    animation: boat-bob 2.2s ease-in-out infinite, boat-rock 3.6s ease-in-out infinite;
+    filter: drop-shadow(0 3px 4px rgba(0,0,0,0.2));
+  }
+  @keyframes boat-bob{
+    0%,100%{ margin-top:0px; }
+    50%{ margin-top:10px; }
+  }
+  @keyframes boat-rock{
+    0%,100%{ transform: rotate(-3deg); }
+    50%{ transform: rotate(3deg); }
+  }
+  .masthead-word{
+    position:absolute; right:clamp(16px,4vw,48px); top:50%; transform:translateY(-50%);
+    text-align:center; font-family:'Playfair Display', serif;
+  }
+  .tvm-big{ font-size:clamp(26px,3.6vw,42px); font-weight:700; color:var(--deep-ocean); letter-spacing:0.05em; line-height:1; }
+  .tvm-rule{ width:100%; height:1px; background:var(--tasman-blue); margin:6px 0; opacity:0.6; }
+  .tvm-sub{ font-size:clamp(8px,1vw,10.5px); letter-spacing:0.18em; color:var(--tasman-blue); font-weight:600; line-height:1.5; }
+
+  .chart-lines{ animation: chart-drift 22s ease-in-out infinite; }
+  @keyframes chart-drift{
+    0%,100%{ transform: translateX(0); }
+    50%{ transform: translateX(-24px); }
+  }
+  .status.due{ animation: status-pulse 2s ease-in-out infinite; }
+  @keyframes status-pulse{
+    0%,100%{ box-shadow: 0 0 0 0 rgba(249,168,37,0.45); }
+    50%{ box-shadow: 0 0 0 5px rgba(249,168,37,0); }
+  }
+
+  @media (max-width: 860px){
+    .nav-links{display:none;}
+    .nav-toggle{display:flex;}
+    .transform{grid-template-columns: 1fr;}
+    .transform-arrow{border:none; border-top:1px dashed var(--divider); border-bottom:1px dashed var(--divider); padding:14px 0;}
+    .grid3{grid-template-columns: 1fr;}
+    .diff-grid{grid-template-columns: 1fr;}
+    .diff-strip{grid-template-columns: 1fr;}
+    .asset-grid{grid-template-columns: 1fr;}
+    .process{grid-template-columns: 1fr 1fr; row-gap:36px;}
+    .cta-inner{grid-template-columns: 1fr;}
+    .register-row{grid-template-columns: 60px 1fr 1fr;}
+    .register-row span:nth-child(4){display:none;}
+  }
+  @media (max-width: 860px){
+    .masthead{ height:110px; }
+    .masthead-boat{ width:66px; height:38px; top:26px; left:52%; }
+    .tvm-big{ font-size:22px; }
+  }
+  @media (max-width: 480px){
+    .process{grid-template-columns: 1fr;}
+    .hero-strip{flex-direction:column;}
+    .hero-strip div{border-right:none; border-bottom:1px solid rgba(255,255,255,0.16); padding-bottom:16px; margin-bottom:16px; padding-right:0;}
+    .masthead{ height:88px; }
+    .masthead-boat{ width:50px; height:29px; top:20px; left:44%; }
+    .masthead-word{ right:10px; }
+    .tvm-big{ font-size:17px; }
+    .tvm-sub{ font-size:6.5px; }
+  }
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    .reveal{transition:none; opacity:1; transform:none;}
+    .wave-back, .wave-front, .masthead-boat, .chart-lines, .status.due{ animation: none; }
+  }
+</style>
+</head>
+<body>
+
+<div class="masthead" aria-hidden="false">
+  <div class="masthead-wave-clip">
+    <svg class="wave-back" viewBox="0 0 3200 220" preserveAspectRatio="none">
+      <path d="M0,110 C160,60 320,160 480,110 C640,60 800,160 960,110 C1120,60 1280,160 1440,110 C1600,60 1760,160 1920,110 C2080,60 2240,160 2400,110 C2560,60 2720,160 2880,110 C3040,60 3200,160 3200,110" fill="none" stroke="#3A8FC1" stroke-width="30" stroke-linecap="round" opacity="0.5"/>
+    </svg>
+    <svg class="wave-front" viewBox="0 0 3200 220" preserveAspectRatio="none">
+      <path d="M0,110 C160,60 320,160 480,110 C640,60 800,160 960,110 C1120,60 1280,160 1440,110 C1600,60 1760,160 1920,110 C2080,60 2240,160 2400,110 C2560,60 2720,160 2880,110 C3040,60 3200,160 3200,110" fill="none" stroke="#3FC6D5" stroke-width="13" stroke-linecap="round" opacity="0.75" transform="translate(220,18)"/>
+      <path d="M0,110 C160,60 320,160 480,110 C640,60 800,160 960,110 C1120,60 1280,160 1440,110 C1600,60 1760,160 1920,110 C2080,60 2240,160 2400,110 C2560,60 2720,160 2880,110 C3040,60 3200,160 3200,110" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.6" transform="translate(100,-14)"/>
+    </svg>
+  </div>
+  <svg class="masthead-boat" viewBox="0 0 80 46" fill="none">
+    <ellipse cx="2" cy="37" rx="7" ry="2.2" fill="#0B5E8E" opacity="0.18"/>
+    <path d="M4,32 C4,37 12,40 22,40 L56,40 C64,40 70,36 74,29 L70,22 C64,25 54,27 40,27 L20,27 C10,27 4,29 4,32 Z" fill="#083B59"/>
+    <path d="M6,33 L70,33" stroke="#3FC6D5" stroke-width="1.4" stroke-linecap="round"/>
+    <path d="M38,22 L38,9 L52,9 L57,15 L57,22 Z" fill="#fff"/>
+    <path d="M41,12 L50,12 L50,18 L41,18 Z" fill="#0B5E8E" opacity="0.55"/>
+    <line x1="46" y1="9" x2="46" y2="2" stroke="#083B59" stroke-width="1.3"/>
+    <line x1="43" y1="4" x2="49" y2="4" stroke="#083B59" stroke-width="1.1"/>
+    <circle cx="46" cy="2" r="1.5" fill="#3FC6D5"/>
+  </svg>
+  <div class="masthead-word">
+    <div class="tvm-big">TVM</div>
+    <div class="tvm-rule"></div>
+    <div class="tvm-sub">TASMAN VESSEL<br>MANAGEMENT</div>
+  </div>
+</div>
+<div style="background:var(--tasman-blue); color:#fff; text-align:center; padding:10px 20px; font-size:13.5px; font-weight:600;">
+  🛠️ In development — coming soon. <a href="#contact" style="color:#fff; text-decoration:underline; text-underline-offset:2px;">Register your interest</a> to hear when it's ready.
+</div>
+<header>
+  <nav class="wrap">
+    <div class="brand">
+      <img class="brand-mark" src="data:image/webp;base64,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" alt="Tasman Vessel Management logo">
+    </div>
+    <div class="nav-links">
+      <a href="#problem">The problem</a>
+      <a href="#platform">Platform</a>
+      <a href="#difference">Our difference</a>
+      <a href="#assets">Asset register</a>
+      <a href="#process">How it works</a>
+    </div>
+    <a class="nav-cta" href="#contact">Register interest</a>
+    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+
+<section class="hero">
+    <svg class="chart-lines" viewBox="0 0 1200 700" preserveAspectRatio="none">
+    <g stroke="#3A8FC1" stroke-width="0.6" fill="none">
+      <path d="M -50 620 C 200 560, 400 640, 650 580 S 1050 500, 1300 560"/>
+      <path d="M -50 520 C 220 460, 420 540, 680 480 S 1030 400, 1300 460"/>
+      <path d="M -50 420 C 240 360, 440 440, 700 380 S 1010 300, 1300 360"/>
+      <path d="M -50 320 C 260 260, 460 340, 720 280 S 990 200, 1300 260"/>
+    </g>
+  </svg>
+  <div class="wrap">
+    <div class="eyebrow">Coming soon — currently in development</div>
+    <h1>Why pay thousands a year for software your skipper won't <em>use anyway?</em></h1>
+    <p class="lede">We're building a custom-fit compliance and asset management system for your operation — not another per-seat subscription. Simple enough for crew who don't do computers, built once, and owned by you.</p>
+    <div class="hero-ctas">
+      <a class="btn-primary" href="#contact">Register your interest</a>
+      <a class="btn-ghost" href="#difference">Why we're doing it differently ↓</a>
+    </div>
+    <div class="hero-strip">
+      <div><div class="num">Custom</div><div class="lbl">Built around your MTOP and how your crew actually work</div></div>
+      <div><div class="num">Simple</div><div class="lbl">Made for skippers, not IT departments — old devices included</div></div>
+      <div><div class="num">You own it</div><div class="lbl">No subscription treadmill — host it yourself, or we'll host it for a flat fee</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="problem">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">The problem</div>
+      <h2>The plan is only as good as the binder it's stuck in</h2>
+      <p>MTOPs are written to satisfy an audit, then filed. In practice, most of what keeps a vessel compliant — checklists, drills, maintenance sign-offs, certificate renewals — still happens on paper, in someone's head, or in a spreadsheet nobody else opens.</p>
+    </div>
+    <div class="transform reveal">
+      <div class="transform-col paper">
+        <span class="tag">Before</span>
+        <h3>The binder on the shelf</h3>
+        <ul>
+          <li>MTOP referenced twice a year, at audit time</li>
+          <li>Checklists photocopied, filled in by hand, filed loose</li>
+          <li>Certificate expiries tracked from memory</li>
+          <li>Maintenance records split across logbooks and texts</li>
+          <li>One person holds the whole picture</li>
+        </ul>
+      </div>
+      <div class="transform-arrow">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M4 12H20M20 12L14 6M20 12L14 18" stroke="var(--seafoam)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div class="transform-col digital">
+        <span class="tag">With TVM</span>
+        <h3>The plan, live on every device</h3>
+        <ul>
+          <li>MTOP procedures become guided digital checklists</li>
+          <li>Crew complete sign-offs on deck, on a phone, offline</li>
+          <li>Certificate and survey dates flag themselves early</li>
+          <li>One asset and maintenance register for the whole fleet</li>
+          <li>Anyone authorised can see exactly where things stand</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="platform" style="background:var(--ocean-mid); border-top:1px solid rgba(255,255,255,0.1); border-bottom:1px solid rgba(255,255,255,0.1);">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">The platform</div>
+      <h2>Customised to your operation, not the other way round</h2>
+      <p>Most compliance software asks you to adapt your procedures to fit its forms. This is built the other way — starting from your MTOP, your vessels, and how your crew actually works.</p>
+    </div>
+    <div class="grid3 reveal">
+      <div class="card">
+        <div class="idx">01</div>
+        <h3>Your MTOP, structured</h3>
+        <p>Every procedure, checklist and drill in your operator plan becomes a digital workflow, laid out the way Maritime NZ expects to see it at audit.</p>
+      </div>
+      <div class="card">
+        <div class="idx">02</div>
+        <h3>Works on the water</h3>
+        <p>Built for the reality of a vessel — patchy or no signal, wet hands, deck conditions. Entries sync when connectivity returns.</p>
+      </div>
+      <div class="card">
+        <div class="idx">03</div>
+        <h3>Nothing to relearn</h3>
+        <p>The system follows your existing terms, roles and sign-off chain. Crew are guided through what they already know how to do.</p>
+      </div>
+      <div class="card">
+        <div class="idx">04</div>
+        <h3>Audit-ready by default</h3>
+        <p>Every completed checklist, drill and inspection is timestamped and stored, ready to hand to a Maritime NZ auditor without a scramble.</p>
+      </div>
+      <div class="card">
+        <div class="idx">05</div>
+        <h3>Fleet-wide visibility</h3>
+        <p>See every vessel's compliance status, outstanding actions and upcoming renewals from one place, not one binder per boat.</p>
+      </div>
+      <div class="card">
+        <div class="idx">06</div>
+        <h3>Grows with the operation</h3>
+        <p>Started as MTOP digitisation. Now extends into full asset management — the same register, more of what it can tell you.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="difference" class="diff">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Our difference</div>
+      <h2>Built to fit your operation. Simple enough to actually use. Yours to keep.</h2>
+      <p>Most software makes you fit the mould — a generic product built to suit everyone, which really means it suits no one, and charges you every year for the privilege. We're building this the other way.</p>
+    </div>
+    <div class="diff-grid reveal">
+      <div class="diff-card">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="var(--seafoam)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4z"/><path d="M17 14v6M14 17h6"/></svg>
+        <h3>Built to fit, not to force a fit</h3>
+        <p>No one-size-fits-none mould. Your MTOP, your fleet and your sign-off chain shape the system — you don't reshape your operation to suit a generic product.</p>
+      </div>
+      <div class="diff-card">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="var(--seafoam)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+        <h3>Why pay thousands a year?</h3>
+        <p>Generic SaaS platforms charge you every year forever for software that costs them nothing extra to keep running. We build it once, you own it — for a fraction of years of subscription fees.</p>
+      </div>
+      <div class="diff-card">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="var(--seafoam)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 2v20M19 2v20M8 6h8M8 10h8M8 14h5"/></svg>
+        <h3>Made for skippers, not IT</h3>
+        <p>No logins to remember, no menus to hunt through, no assumption everyone's comfortable with a computer. If your crew can tap a button, they can use this — including on older phones and tablets.</p>
+      </div>
+      <div class="diff-card">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="var(--seafoam)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/><path d="M4 4l2 2M20 4l-2 2"/></svg>
+        <h3>No subscription treadmill</h3>
+        <p>No per-seat fees, no tiered plans, no quiet price rise every renewal for a product that hasn't changed. It doesn't cost us more to keep your software running than it did last year, so we don't charge you more either.</p>
+      </div>
+      <div class="diff-card">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="var(--seafoam)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M9 20v-6h6v6"/></svg>
+        <h3>You own the application</h3>
+        <p>It's built for you, not licensed to you by the month. Once it's built, it's yours — the same as any other capital asset in your operation.</p>
+      </div>
+      <div class="diff-card">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="var(--seafoam)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="10" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
+        <h3>Your data, your call</h3>
+        <p>Host it yourself, or we'll host it for you for a straightforward fee. Either way, you always know exactly where your data sits and who can get to it — no wondering.</p>
+      </div>
+      <div class="diff-card">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="var(--seafoam)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7-11-7-11-7z"/><circle cx="12" cy="12" r="3"/></svg>
+        <h3>Save time on audits</h3>
+        <p>Give your auditor their own read-only login and they can review your records ahead of time, instead of everyone sitting around a table on audit day. Less time spent, less it costs you.</p>
+      </div>
+    </div>
+    <div class="diff-strip reveal">
+      <div>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--seafoam)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+        <div><strong>Self-hosted</strong><span>Run it on your own infrastructure if you'd rather keep it fully in-house.</span></div>
+      </div>
+      <div>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--seafoam)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+        <div><strong>Hosted for you</strong><span>Prefer we manage it? We'll host it for a flat, straightforward fee — not a per-seat markup.</span></div>
+      </div>
+      <div>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--seafoam)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+        <div><strong>Built once, yours to keep</strong><span>No forced upgrades, no losing access if a vendor decides to sunset a plan.</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="assets" class="band">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Beyond compliance — concept preview</div>
+      <h2>One register, from safety plan to asset register</h2>
+      <p>What starts as a way to digitise the MTOP is being built into something bigger: a single, structured record of every vessel, engine, safety item and certificate — and when each one is next due for attention. Here's the idea in preview form.</p>
+    </div>
+    <div class="asset-grid reveal">
+      <div class="register">
+        <div class="register-row head">
+          <span>Asset</span><span>Description</span><span>Next due</span><span>Status</span>
+        </div>
+        <div class="register-row"><span>HL-04</span><span>Life raft — 12 person</span><span>14 Mar 2027</span><span><span class="status ok">Current</span></span></div>
+        <div class="register-row"><span>EN-02</span><span>Main engine — 500hr service</span><span>3 Sep 2026</span><span><span class="status due">Due soon</span></span></div>
+        <div class="register-row"><span>SC-11</span><span>Safety certificate of survey</span><span>29 Nov 2026</span><span><span class="status ok">Current</span></span></div>
+        <div class="register-row"><span>FE-06</span><span>Fire extinguisher — engine room</span><span>18 Oct 2026</span><span><span class="status ok">Current</span></span></div>
+        <div class="register-row"><span>RD-01</span><span>Radio &amp; distress beacon check</span><span>2 Sep 2026</span><span><span class="status due">Due soon</span></span></div>
+      </div>
+      <ul class="asset-list">
+        <li><div class="n">01</div><div><h4>Every asset, one source of truth</h4><p>Vessels, engines, safety equipment and certificates in a single register instead of scattered spreadsheets and logbooks.</p></div></li>
+        <li><div class="n">02</div><div><h4>Maintenance tied to compliance</h4><p>Service intervals and survey dates sit next to the MOSS obligations they satisfy — not managed as two separate jobs.</p></div></li>
+        <li><div class="n">03</div><div><h4>Nothing quietly lapses</h4><p>Certificates and services surface as they approach their due date, instead of being discovered at the next audit.</p></div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="process">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">What happens next</div>
+      <h2>How we'll build yours, once you're on board</h2>
+      <p>A short, hands-on process — because the system is only useful if it matches how your operation actually runs. Register your interest and this is what it looks like from there.</p>
+    </div>
+    <div class="process reveal">
+      <div class="step"><div class="step-line"></div><div class="mono">Step 01</div><h3>Register your interest</h3><p>Tell us a bit about your fleet so we can get in touch when we're ready to start building operator systems.</p></div>
+      <div class="step"><div class="step-line"></div><div class="mono">Step 02</div><h3>Review your MTOP</h3><p>We go through your current operator plan and procedures line by line, in your language, against your fleet.</p></div>
+      <div class="step"><div class="step-line"></div><div class="mono">Step 03</div><h3>Crew trial on deck</h3><p>Your crew try it on real trips before it's locked in, so it's tested against actual conditions — including the skipper who's never used an app before.</p></div>
+      <div class="step"><div class="step-line"></div><div class="mono">Step 04</div><h3>Live &amp; audit-ready</h3><p>The system runs day to day and produces the records Maritime NZ expects to see, whenever they ask for them.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band" id="contact">
+  <svg class="chart-lines" viewBox="0 0 1200 500" preserveAspectRatio="none" style="opacity:0.3;">
+    <g stroke="#3A8FC1" stroke-width="0.6" fill="none">
+      <path d="M -50 400 C 250 340, 450 420, 700 360 S 1050 300, 1300 360"/>
+      <path d="M -50 300 C 270 240, 470 320, 720 260 S 1010 200, 1300 260"/>
+    </g>
+  </svg>
+  <div class="wrap cta-inner">
+    <div class="reveal">
+      <div class="eyebrow" style="color:#8FD3DC;">Coming soon</div>
+      <h2>Be first to know when it's ready</h2>
+      <p>We're building the first custom system now. Register your interest and we'll be in touch to talk about your fleet, your MTOP, and what it'll cost you compared to years of SaaS fees — likely a lot less.</p>
+    </div>
+    <div class="contact-card reveal">
+      <span class="tag">Register your interest</span>
+      <p>Tell us a little about your fleet and we'll get back to you as development progresses.</p>
+      <form id="interest-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div class="field"><label for="name">Name</label><input id="name" name="name" type="text" required></div>
+        <div class="field"><label for="operator">Operator / company</label><input id="operator" name="operator" type="text"></div>
+        <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" required></div>
+        <div class="field"><label for="msg">A little about your fleet</label><textarea id="msg" name="message" rows="3"></textarea></div>
+        <button type="submit">Register your interest</button>
+        <p id="form-status" style="font-size:13px; margin-top:10px; color:#d7ecf1;"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div>© 2026 Tasman Vessel Management. In development — built for New Zealand vessel operators.</div>
+    <div class="mono">MOSS · MTOP · Asset management</div>
+    <a href="https://blnk.nz" target="_blank" rel="noopener" style="display:inline-flex; align-items:center; gap:8px; text-decoration:none;">
+      <span style="color:var(--neutral); font-size:13px;">Powered by</span>
+      <span style="background:#0e0e0e; padding:5px 10px; border-radius:5px; display:inline-flex; align-items:center;">
+        <img src="https://blnk.nz/assets/blnk-logos/blnk-wordmark-nodomain-parchment.svg" alt="blnk" style="height:13px; display:block;">
+      </span>
+    </a>
+  </div>
+</footer>
+
+<script>
+  const io = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, {threshold:0.15});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+  const toggle = document.querySelector('.nav-toggle');
+  const links = document.querySelector('.nav-links');
+  toggle.addEventListener('click', ()=>{
+    links.style.display = links.style.display === 'flex' ? 'none' : 'flex';
+    links.style.flexDirection = 'column';
+    links.style.position = 'absolute';
+    links.style.top = '76px';
+    links.style.left = '0';
+    links.style.right = '0';
+    links.style.background = '#083B59';
+    links.style.padding = '20px 32px';
+    links.style.gap = '18px';
+    links.style.borderBottom = '1px solid rgba(255,255,255,0.14)';
+  });
+
+  const interestForm = document.getElementById('interest-form');
+  const formStatus = document.getElementById('form-status');
+  interestForm.addEventListener('submit', async function(e){
+    e.preventDefault();
+    const btn = interestForm.querySelector('button');
+    const originalText = btn.textContent;
+    btn.textContent = 'Sending…';
+    btn.disabled = true;
+    try {
+      const res = await fetch(interestForm.action, {
+        method: 'POST',
+        body: new FormData(interestForm),
+        headers: { 'Accept': 'application/json' }
+      });
+      if (res.ok) {
+        btn.textContent = "You're on the list";
+        formStatus.textContent = "Thanks — we'll be in touch as development progresses.";
+        interestForm.reset();
+      } else {
+        btn.textContent = originalText;
+        btn.disabled = false;
+        formStatus.textContent = "Something went wrong — email us directly instead.";
+      }
+    } catch (err) {
+      btn.textContent = originalText;
+      btn.disabled = false;
+      formStatus.textContent = "Something went wrong — email us directly instead.";
+    }
+  });
+</script>
+
+</body>
+</html>
